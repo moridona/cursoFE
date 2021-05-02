@@ -1,0 +1,161 @@
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+
+header {
+  display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header img {
+    width: 350px;
+    height: 100px;
+    padding-bottom: 10px;
+    padding-top:10px;
+  }
+
+nav {
+    width: 400px;    
+    left: 70%;
+  }
+
+nav ul {
+    display: flex;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+nav a {
+    text-decoration: none;
+    color: black;
+  }
+
+.fotoprincipal {
+    background-image: url("https://raw.githubusercontent.com/moridona/clon-spotify/master/images/landing.jpg");
+    height: 900px;
+    color: #FFF;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+  }
+
+  .fotoprincipal h1 {
+    padding-top: 200px;
+    font-size: 100px;
+  }
+
+  .fotoprincipal p {
+    font-size: 40px;
+    margin: auto;
+  }
+
+
+.titulo {
+    text-align: center;
+    padding: 70px 20px;
+  }
+
+  .titulo h3 {
+    display: inline;
+    text-align: center;
+    font-size: 70px;
+    padding-bottom: 5px;
+    border-bottom: 10px solid #00B172;
+  }
+
+  .titulo h4 {
+    color : #00B172; 
+    font-size: 50px;
+    padding-bottom: 5px;
+  }
+
+  .titulo p {
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+  }
+
+
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 50px 200px;
+    margin: 70px 0 50px 0;
+  }
+
+  .icon > img {
+    width: 400px;
+    height: 320px;
+  }
+
+.titulofinal {
+  background-color: #00B172;
+  height: 30cm;
+  display:flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 10px 50px 20px;
+}
+
+.kanye {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 5px 150px;
+}
+
+.kanye h3 {
+  text-decoration: underline #FFF;
+  text-underline-position: under;
+  text-decoration-thickness: 10px;
+  color: #FFF;
+  font-size: 60px;
+}
+
+.opciones {
+  width: 350px;
+  height: 300px ;
+  display: flex;
+  text-align: left;
+  position: sticky ;
+  flex-direction: column;
+  justify-content: flex-start;
+  color: #FFF;
+}
+
+.opciones h4 {
+font-size: 50px;
+height: 20px;
+}
+
+.opciones p {
+  font-size: 23px;
+}
+
+.icono img {
+  height: 205px;
+  width: 205px;
+  position: absolute center;
+  right: 250px;
+  float: right;
+  padding: auto;
+}
+
+
+.aplicacion img {
+  position: relative;
+  right: 200px;
+  top: 150px;
+  height: 800px;
+  margin: auto; 
+}
